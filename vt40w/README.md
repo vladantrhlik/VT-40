@@ -1,5 +1,5 @@
 # VT-40w
-Modified version of VT-40 PCB with IO expander and Xiao BLE microcontroller.
+Modified version of VT-40 PCB with IO expander and XIAO BLE microcontroller.
 
 ## Build
 For a long time a wanted to build a wireless keyboard, and because I had few of the VT-40 PCBs laying around, I decided to modify it to work with a BLE capable microcroller.
@@ -16,3 +16,12 @@ The PCB is mounted with a little slides inside the main frame, so no screws are 
 
 #### Randomly Generated pattern in Blender for bottom part
 I decided to make bottom part i bit more interesting, so I generated random pattern of rectangles in Blender, and then imported it to Inventor.
+
+<p align="center">
+  <img alt="Light" src="images/blender.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="images/inventor.png" width="45%">
+</p>
+
+### Firmware
+At first I wanted to try ZMK firmware, but because I could get the matrix working I decided to use KMK firmware. I also wrote a custom scanner for MCP23017.
